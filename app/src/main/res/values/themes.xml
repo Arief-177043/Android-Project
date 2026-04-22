@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.GrowwX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Let Compose handle all theming -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Splash screen icon background (API 31+) -->
+        <item name="android:windowSplashScreenBackground">#F8FAFA</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+    </style>
+
+    <!-- Splash screen theme (shown before Compose loads) -->
+    <style name="Theme.GrowwX.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F8FAFA</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.GrowwX</item>
+    </style>
+
+</resources>

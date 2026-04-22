@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GrowwX</string>
+    <string name="app_tagline">Invest Smart. Grow Faster.</string>
+
+    <!-- Auth -->
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="try_demo">Try Demo Account</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_name_required">Name is required</string>
+
+    <!-- Dashboard -->
+    <string name="total_portfolio_value">TOTAL PORTFOLIO VALUE</string>
+    <string name="top_gainers">🔥 Top Gainers Today</string>
+    <string name="ai_insights">🧠 AI Insights</string>
+
+    <!-- Simulator -->
+    <string name="virtual_balance">Virtual Balance</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="error_insufficient_balance">Insufficient balance</string>
+    <string name="error_insufficient_shares">Insufficient shares</string>
+
+    <!-- Alerts -->
+    <string name="new_alert">New Alert</string>
+    <string name="set_alert">Set Alert</string>
+    <string name="above">Above</string>
+    <string name="below">Below</string>
+    <string name="alert_triggered">Alert Triggered</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_watchlist">Watchlist</string>
+    <string name="nav_simulate">Simulate</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_portfolio">Portfolio</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Price Alerts</string>
+    <string name="notification_channel_desc">GrowwX price alert notifications</string>
+</resources>
